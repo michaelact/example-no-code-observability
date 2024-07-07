@@ -1,0 +1,100 @@
+[2024-07-07 21:55:38.217525 +08:00] INFO [src/sender/uniform_sender.rs:275] 1-compressed-otel-to-sender uniform sender id: 13 started
+[2024-07-07 21:55:38.217916 +08:00] INFO [src/sender/uniform_sender.rs:275] 1-prometheus-to-sender uniform sender id: 11 started
+[2024-07-07 21:55:38.218011 +08:00] INFO [src/sender/uniform_sender.rs:275] 1-telegraf-to-sender uniform sender id: 12 started
+[2024-07-07 21:55:38.218113 +08:00] INFO [src/sender/uniform_sender.rs:275] 1-profile-to-sender uniform sender id: 8 started
+[2024-07-07 21:55:38.218216 +08:00] INFO [src/sender/uniform_sender.rs:275] 1-proc-event-to-sender uniform sender id: 7 started
+[2024-07-07 21:55:38.218302 +08:00] INFO [src/sender/uniform_sender.rs:275] 1-application-log-to-sender uniform sender id: 9 started
+[2024-07-07 21:55:38.218348 +08:00] INFO [src/collector/l7_quadruple_generator.rs:520] new l7 quadruple_generator id: 2, second_delay: 9, minute_delay: 69, l7_metrics_enabled: true, vtap_flow_1s_enabled: true collector_enabled: true
+[2024-07-07 21:55:38.218439 +08:00] INFO [src/integration_collector.rs:1030] integration collector starting
+[2024-07-07 21:55:38.218654 +08:00] INFO [src/integration_collector.rs:1136] integration collector started
+[2024-07-07 21:55:38.218691 +08:00] INFO [src/integration_collector.rs:1137] integration collector listening on http://[::]:38086
+[2024-07-07 21:55:38.219472 +08:00] INFO [src/collector/l7_quadruple_generator.rs:462] l7 quadruple generator id: 2 started
+[2024-07-07 21:55:38.219556 +08:00] INFO [src/collector/collector.rs:1422] second_collector id=(2) started
+[2024-07-07 21:55:38.219647 +08:00] INFO [src/collector/collector.rs:1422] minute_collector id=(2) started
+[2024-07-07 21:55:38.219733 +08:00] INFO [src/sender/uniform_sender.rs:275] 2-pcap-batch-to-sender uniform sender id: 5 started
+[2024-07-07 21:55:38.219768 +08:00] INFO [src/trident.rs:2603] Started agent components.
+[2024-07-07 21:55:38.219783 +08:00] INFO [src/utils/stats.rs:336] set stats hostname to "e3858b29f83a-W1"
+[2024-07-07 21:55:38.219804 +08:00] INFO [src/ebpf_dispatcher/ebpf_dispatcher.rs:824] ebpf collector stopping ebpf-kernel.
+[2024-07-07 21:55:38.219829 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO Call socket_tracer_stop()
+[2024-07-07 21:55:38.219857 +08:00] INFO [src/ebpf_dispatcher/ebpf_dispatcher.rs:975] ebpf collector stopping thread.
+[2024-07-07 21:55:38.474382 +08:00] INFO [src/ebpf_dispatcher/ebpf_dispatcher.rs:979] ebpf collector stopped.
+[2024-07-07 21:55:38.474526 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO Call socket_tracer_start()
+[2024-07-07 21:55:38.474547 +08:00] INFO [src/ebpf_dispatcher/ebpf_dispatcher.rs:948] ebpf collector started
+[2024-07-07 21:55:38.474560 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO Received limit_size (1024), the final value is set to '1024'
+[2024-07-07 21:55:38.508668 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO Set current state: TRACER_WAIT_START.
+[2024-07-07 21:55:38.508716 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO tracer(socket-trace) attach ...
+[2024-07-07 21:55:38.517926 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach enter kprobe: 'kprobe/__sys_sendmsg', success!
+[2024-07-07 21:55:38.525338 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach enter kprobe: 'kprobe/__sys_sendmmsg', success!
+[2024-07-07 21:55:38.533055 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach enter kprobe: 'kprobe/__sys_recvmsg', success!
+[2024-07-07 21:55:38.540936 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach enter kprobe: 'kprobe/__sys_recvmmsg', success!
+[2024-07-07 21:55:38.545347 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach enter kprobe: 'kprobe/do_writev', success!
+[2024-07-07 21:55:38.549750 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach enter kprobe: 'kprobe/do_readv', success!
+[2024-07-07 21:55:38.550236 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_enter_write', succeed!
+[2024-07-07 21:55:38.550357 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_enter_read', succeed!
+[2024-07-07 21:55:38.550486 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_enter_sendto', succeed!
+[2024-07-07 21:55:38.550613 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_enter_recvfrom', succeed!
+[2024-07-07 21:55:38.550742 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_enter_connect', succeed!
+[2024-07-07 21:55:38.550996 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_socket', succeed!
+[2024-07-07 21:55:38.551127 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_read', succeed!
+[2024-07-07 21:55:38.551271 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_write', succeed!
+[2024-07-07 21:55:38.551440 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_sendto', succeed!
+[2024-07-07 21:55:38.551569 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_recvfrom', succeed!
+[2024-07-07 21:55:38.551723 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_sendmsg', succeed!
+[2024-07-07 21:55:38.551870 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_sendmmsg', succeed!
+[2024-07-07 21:55:38.551986 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_recvmsg', succeed!
+[2024-07-07 21:55:38.552133 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_recvmmsg', succeed!
+[2024-07-07 21:55:38.552271 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_writev', succeed!
+[2024-07-07 21:55:38.552398 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_readv', succeed!
+[2024-07-07 21:55:38.552556 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_accept', succeed!
+[2024-07-07 21:55:38.552684 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_accept4', succeed!
+[2024-07-07 21:55:38.552838 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_fork', succeed!
+[2024-07-07 21:55:38.552993 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_exit_clone', succeed!
+[2024-07-07 21:55:38.553272 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/sched/sched_process_exec', succeed!
+[2024-07-07 21:55:38.553534 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/sched/sched_process_exit', succeed!
+[2024-07-07 21:55:38.553683 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach tracepoint: 'tracepoint/syscalls/sys_enter_close', succeed!
+[2024-07-07 21:55:38.553754 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach perf event sample_freq 100 pid -1 cpu 0 done
+[2024-07-07 21:55:38.553811 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach perf event sample_freq 100 pid -1 cpu 1 done
+[2024-07-07 21:55:38.553882 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach perf event sample_freq 100 pid -1 cpu 2 done
+[2024-07-07 21:55:38.553946 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach perf event sample_freq 100 pid -1 cpu 3 done
+[2024-07-07 21:55:38.554005 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach perf event sample_freq 100 pid -1 cpu 4 done
+[2024-07-07 21:55:38.554069 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach perf event sample_freq 100 pid -1 cpu 5 done
+[2024-07-07 21:55:38.554160 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach perf event sample_freq 100 pid -1 cpu 6 done
+[2024-07-07 21:55:38.554230 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO attach perf event sample_freq 100 pid -1 cpu 7 done
+[2024-07-07 21:55:38.554267 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO tracer "socket-trace" attach perf event prog successful.
+[2024-07-07 21:55:38.554297 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO Successfully completed attach.
+[2024-07-07 21:55:38.554326 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO Set current state: TRACER_RUNNING.
+[2024-07-07 21:55:39.207048 +08:00] INFO [src/ebpf/mod.rs:710] [eBPF] INFO [CP] set_bpf_run_enabled() success, enable_flag:1
+[2024-07-07 21:55:40.370005 +08:00] INFO [src/platform/synchronizer.rs:226] updated kubernetes poller
+[2024-07-07 21:55:40.377130 +08:00] INFO [src/platform/synchronizer.rs:235] Platform information changed to version 1720360532
+[2024-07-07 21:55:40.377174 +08:00] INFO [src/platform/synchronizer.rs:260] local version is 1720360532, will send whole message
+[2024-07-07 21:55:41.217592 +08:00] INFO [src/sender/uniform_sender.rs:184] 1-otel-to-sender id 10 update agent id from 1 to 1, team id from 0 to 1, organization id from 0 to 1.
+[2024-07-07 21:55:41.217933 +08:00] INFO [src/sender/uniform_sender.rs:184] 1-compressed-otel-to-sender id 13 update agent id from 1 to 1, team id from 0 to 1, organization id from 0 to 1.
+[2024-07-07 21:55:41.218050 +08:00] INFO [src/sender/uniform_sender.rs:184] 1-prometheus-to-sender id 11 update agent id from 1 to 1, team id from 0 to 1, organization id from 0 to 1.
+[2024-07-07 21:55:41.218166 +08:00] INFO [src/sender/uniform_sender.rs:184] 1-telegraf-to-sender id 12 update agent id from 1 to 1, team id from 0 to 1, organization id from 0 to 1.
+[2024-07-07 21:55:41.218343 +08:00] INFO [src/sender/uniform_sender.rs:184] 1-proc-event-to-sender id 7 update agent id from 1 to 1, team id from 0 to 1, organization id from 0 to 1.
+[2024-07-07 21:55:41.218475 +08:00] INFO [src/sender/uniform_sender.rs:184] 1-application-log-to-sender id 9 update agent id from 1 to 1, team id from 0 to 1, organization id from 0 to 1.
+[2024-07-07 21:55:41.219863 +08:00] INFO [src/sender/uniform_sender.rs:184] 2-pcap-batch-to-sender id 5 update agent id from 1 to 1, team id from 0 to 1, organization id from 0 to 1.
+[2024-07-07 21:55:56.065936 +08:00] INFO [src/sender/uniform_sender.rs:184] 1-profile-to-sender id 8 update agent id from 1 to 1, team id from 0 to 1, organization id from 0 to 1.
+[2024-07-07 21:55:56.066179 +08:00] INFO [src/sender/uniform_sender.rs:448] 1-profile-to-sender sender tcp connection to 172.16.0.213:30033 succeed.
+[2024-07-07 21:56:30.336419 +08:00] INFO [src/rpc/synchronizer.rs:206] Update PlatformData version 0 to 1724355730.
+[2024-07-07 21:56:30.336507 +08:00] INFO [src/rpc/synchronizer.rs:218] Update IpGroups version 0 to 1720352440.
+[2024-07-07 21:56:30.336542 +08:00] INFO [src/rpc/synchronizer.rs:228] Update FlowAcls version 0 to 2720352640.
+[2024-07-07 21:56:30.336567 +08:00] INFO [src/rpc/synchronizer.rs:810] Grpc version ip-groups: 1720352440, interfaces, peer-connections and cidrs: 1724355730, flow-acls: 2720352640
+[2024-07-07 21:56:30.338035 +08:00] INFO [src/rpc/synchronizer.rs:827] Grpc finish update cost 1.468004ms on 4 listener, 1 ip-groups, 1 interfaces, 0 peer-connections, 1 cidrs, 0 flow-acls
+[2024-07-07 21:56:30.338868 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes
+[2024-07-07 21:56:30.343883 +08:00] INFO [src/flow_generator/flow_map.rs:443] loaded 0 wasm and 0 so plugins
+[2024-07-07 21:56:34.834773 +08:00] INFO [src/sender/uniform_sender.rs:448] 2-protolog-to-collector-sender sender tcp connection to 172.16.0.213:30033 succeed.
+[2024-07-07 21:56:52.474939 +08:00] INFO [src/sender/uniform_sender.rs:448] 3-doc-to-collector-sender sender tcp connection to 172.16.0.213:30033 succeed.
+[2024-07-07 21:57:30.340639 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes
+[2024-07-07 21:58:30.343334 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes
+[2024-07-07 21:59:30.346006 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes
+[2024-07-07 22:00:30.348421 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes
+[2024-07-07 22:01:30.350696 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes
+[2024-07-07 22:02:30.352471 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes
+[2024-07-07 22:03:30.354734 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes
+[2024-07-07 22:04:30.356620 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes
+[2024-07-07 22:05:30.358830 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes
+[2024-07-07 22:06:30.360879 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes
+[2024-07-07 22:06:43.474476 +08:00] INFO [src/sender/uniform_sender.rs:448] 1-proc-event-to-sender sender tcp connection to 172.16.0.213:30033 succeed.
+[2024-07-07 22:07:30.363378 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes
+[2024-07-07 22:08:30.366117 +08:00] INFO [src/config/handler.rs:2466] current container cpu limit: 0, memory limit: 0bytes, set cpu limit 1 and memory limit 805306368bytes

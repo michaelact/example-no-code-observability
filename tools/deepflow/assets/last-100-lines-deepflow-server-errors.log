@@ -1,0 +1,100 @@
+2024-07-07 22:06:54.654 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: pod_group, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.654 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: pod_group_port, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.654 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: pod_replica_set, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.655 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: pod, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.655 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: prometheus_target, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.655 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: network, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.655 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: subnet, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.655 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: vrouter, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.655 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: routing_table, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.655 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: dhcp_port, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.655 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: nat_gateway, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.655 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: nat_vm_connection, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: nat_rule, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: lb, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: lb_vm_connection, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: lb_listener, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: lb_target_server, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: rds_instance, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: redis_instance, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: peer_connection, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: cen, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: vinterface, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: floating_ip, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: vip, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.656 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: vm_pod_node_connection, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.657 [INFO] [recorder.updater] updater.go:117 [OID-1] [DN-cafe-everywhere] new updater for resource type: process, message metadata: &message.Metadata{ORGID:1, TeamID:1, DomainID:1, SubDomainID:0}
+2024-07-07 22:06:54.663 [INFO] [recorder] domain.go:138 [OID-1] [DN-cafe-everywhere] domain refresh completed
+2024-07-07 22:06:54.663 [INFO] [recorder.cache] cache.go:163 [OID-1] [DN-cafe-everywhere] domain: 8d6f6b8f-f346-579b-b49d-fcb705770b79 reset cache refresh signal (caller: domain)
+2024-07-07 22:06:54.663 [INFO] [manager] task.go:111 task (cafe-everywhere) one loop over
+2024-07-07 22:06:54.663 [INFO] [manager] task.go:92 task (cafe-everywhere) wait for next refresh
+2024-07-07 22:06:54.678 [INFO] [prometheus.synchronizer.cache] cache.go:95 [OID-1] refresh cache started
+2024-07-07 22:06:54.679 [INFO] [prometheus.synchronizer.cache] cache.go:105 [OID-1] refresh cache completed
+2024-07-07 22:06:54.805 [INFO] [trisolaris/metadata] metadata.go:191 ORGID-1: start generate metaData from timed
+2024-07-07 22:06:54.805 [INFO] [trisolaris.kubernetes] kubernetes.go:86 ORGID-1: refresh cache cluster_id started
+2024-07-07 22:06:54.806 [INFO] [trisolaris.kubernetes] kubernetes.go:104 ORGID-1: refresh cache cluster_id completed
+2024-07-07 22:06:54.806 [INFO] [trisolaris.kubernetes] kubernetes.go:86 ORGID-1: refresh cache cluster_id started
+2024-07-07 22:06:54.807 [INFO] [trisolaris.kubernetes] kubernetes.go:104 ORGID-1: refresh cache cluster_id completed
+2024-07-07 22:06:54.823 [INFO] [trisolaris/node] node.go:1031 ORGID-1: start generate node cache data from timed
+2024-07-07 22:06:54.824 [INFO] [trisolaris/node] controller_discovery.go:77 ORGID-1: controller name (9c52c995e4b1), node_name (9c52c995e4b1)
+2024-07-07 22:06:54.826 [INFO] [trisolaris/metadata] metadata.go:197 ORGID-1: end generate metaData from timed
+2024-07-07 22:06:54.827 [INFO] [trisolaris/node] node.go:136 ORGID-1: update tsdb info to db
+2024-07-07 22:06:54.830 [INFO] [trisolaris/node] node.go:947 ORGID-1: generate ingester platform data (region=ffffffff-ffff-ffff-ffff-ffffffffffff azs=[ALL] podClusterInternalIPToIngester=0)
+2024-07-07 22:06:54.830 [INFO] [trisolaris/node] node.go:1040 ORGID-1: end generate node cache data from timed
+2024-07-07 22:06:54.884 [INFO] [tagrecorder] dictionary.go:81 tagrecorder update ch dictionary
+2024-07-07 22:06:54.884 [INFO] [tagrecorder] dictionary.go:164 refresh clickhouse dictionary in (clickhouse: 9000)
+2024-07-07 22:06:54.973 [INFO] [tagrecorder] updater.go:79 tagrecorder updaters refresh
+2024-07-07 22:06:54.973 [INFO] [monitor] analyzer.go:137 analyzer health check start
+2024-07-07 22:06:54.973 [INFO] [monitor] controller.go:132 controller health check start
+2024-07-07 22:06:54.973 [INFO] [monitor.license] pseudo_license.go:91 ORG(id=%d database=%s) alloc license starting 1 deepflow
+2024-07-07 22:06:54.975 [GIN] 127.0.0.1 GET /v1/health/ 200 20.6µs
+2024-07-07 22:06:54.976 [INFO] [monitor] controller.go:236 controller health check end
+2024-07-07 22:06:54.976 [INFO] [monitor] controller.go:247 vtap controller check start
+2024-07-07 22:06:54.976 [GIN] 127.0.0.1 GET /v1/health/ 200 70.7µs
+2024-07-07 22:06:54.976 [INFO] [monitor.license] pseudo_license.go:101 ORG(id=%d database=%s) alloc license complete 1 deepflow
+2024-07-07 22:06:54.977 [INFO] [monitor] analyzer.go:225 analyzer health check end
+2024-07-07 22:06:54.977 [INFO] [monitor] analyzer.go:236 vtap analyzer check start
+2024-07-07 22:06:54.978 [INFO] [tagrecorder] ch_region.go:43 generate data for ch_region
+2024-07-07 22:06:54.979 [INFO] [monitor] controller.go:275 vtap controller check end
+2024-07-07 22:06:54.979 [INFO] [monitor] controller.go:387 az connection check start
+2024-07-07 22:06:54.979 [INFO] [monitor] analyzer.go:264 vtap analyzer check end
+2024-07-07 22:06:54.980 [INFO] [monitor] analyzer.go:378 az connection check start
+2024-07-07 22:06:54.980 [INFO] [monitor] controller.go:405 az connection check end
+[GIN-debug] redirecting request 307: /v1/query/ --> /v1/query/
+2024-07-07 22:06:54.982 [INFO] [monitor] analyzer.go:414 az connection check end
+2024-07-07 22:06:54.983 [GIN] ::1 GET /v1/data-sources/?type=deepflow_tenant 200 1.326104ms
+2024-07-07 22:06:55.000 [INFO] [http.service.vtap] vtap_interface.go:141 [OID-1] get vtap interfaces: http://127.0.0.1:20417/v1/sync/vinterface/
+2024-07-07 22:06:55.004 [GIN] 127.0.0.1 GET /v1/sync/vinterface/ 200 3.448609ms
+2024-07-07 22:06:55.006 [INFO] [service.resource] domain.go:1008 [OID-1] check domain controller health started
+2024-07-07 22:06:55.008 [INFO] [service.resource] domain.go:1049 [OID-1] check domain controller health ended
+2024-07-07 22:06:55.016 [ERRO] [clickhouse.client] client.go:142 query clickhouse Error: code: 115, message: Unknown setting use_query_cache, sql: SELECT key FROM (SELECT key FROM flow_tag.pod_service_k8s_label_map UNION ALL SELECT key FROM flow_tag.pod_k8s_label_map) GROUP BY key SETTINGS use_query_cache = true, query_cache_store_results_of_queries_with_nondeterministic_functions = 1, query_uuid: 5fb28c9a-3b39-4829-a015-6e6baaaedab4
+2024-07-07 22:06:55.016 [ERRO] [clickhouse.metrics] metrics.go:243 Failed to get tag type metrics
+2024-07-07 22:06:55.016 [ERRO] [clickhouse] clickhouse.go:194 sql: SELECT `tag.host`, Sum(`metrics.tx-bytes`) AS `tx-bps` FROM deepflow_agent_collect_sender WHERE `time`>1720274814 AND `time`<1720361214 GROUP BY tag.host; parse error: function: Sum(`metrics.tx-bytes`) not support
+2024-07-07 22:06:55.016 [GIN] 172.24.0.5 POST /v1/query/ 500 34.331287ms
+2024-07-07 22:06:55.016 [INFO] [service.rebalance] traffic.go:83 ORGID-1 DATABASE-deepflow region(ffffffff-ffff-ffff-ffff-ffffffffffff) agent traffic: map[string]int64(nil)
+2024-07-07 22:06:55.076 [INFO] [tagrecorder] ch_alarm_policy.go:38 generate data for ch_alarm_policy
+2024/07/07 22:06:56 traces export: Post "http://deepflow-agent/api/v1/otel/trace": dial tcp 172.24.0.7:80: connect: connection refused
+2024-07-07 22:07:00.335 [INFO] [trisolaris/synchronize] remote_execute.go:139 agent(key: 172.21.0.4-02:42:ac:15:00:04) resp: {"agent_id":{"ip":"172.21.0.4","mac":"02:42:ac:15:00:04","team_id":""}}
+2024-07-07 22:07:00.335 [INFO] [trisolaris/synchronize] remote_execute.go:121 agent(key: 172.21.0.4-02:42:ac:15:00:04) request: {}
+2024-07-07 22:07:00.822 [INFO] [trisolaris/vtap] vtap.go:1293 ORGID-1: start generate gpid data from timed
+2024-07-07 22:07:00.826 [INFO] [trisolaris/vtap] vtap.go:1295 ORGID-1: end generate gpid data from timed
+[GIN-debug] redirecting request 307: /v1/query/ --> /v1/query/
+2024-07-07 22:07:04.981 [GIN] ::1 GET /v1/data-sources/?type=deepflow_tenant 200 604.702µs
+2024-07-07 22:07:05.013 [ERRO] [clickhouse.client] client.go:142 query clickhouse Error: code: 115, message: Unknown setting use_query_cache, sql: SELECT key FROM (SELECT key FROM flow_tag.pod_service_k8s_label_map UNION ALL SELECT key FROM flow_tag.pod_k8s_label_map) GROUP BY key SETTINGS use_query_cache = true, query_cache_store_results_of_queries_with_nondeterministic_functions = 1, query_uuid: 753ca8b3-f3b9-42c2-a6c4-81a3ba639e05
+2024-07-07 22:07:05.013 [ERRO] [clickhouse.metrics] metrics.go:243 Failed to get tag type metrics
+2024-07-07 22:07:05.013 [ERRO] [clickhouse] clickhouse.go:194 sql: SELECT `tag.host`, Sum(`metrics.tx-bytes`) AS `tx-bps` FROM deepflow_agent_collect_sender WHERE `time`>1720274824 AND `time`<1720361224 GROUP BY tag.host; parse error: function: Sum(`metrics.tx-bytes`) not support
+2024-07-07 22:07:05.014 [GIN] 172.24.0.5 POST /v1/query/ 500 33.474484ms
+2024-07-07 22:07:05.014 [INFO] [service.rebalance] traffic.go:83 ORGID-1 DATABASE-deepflow region(ffffffff-ffff-ffff-ffff-ffffffffffff) agent traffic: map[string]int64(nil)
+2024/07/07 22:07:06 traces export: Post "http://deepflow-agent/api/v1/otel/trace": dial tcp 172.24.0.7:80: connect: connection refused
+2024-07-07 22:07:09.821 [INFO] [trisolaris/vtap] vtap.go:1293 ORGID-1: start generate gpid data from timed
+2024-07-07 22:07:09.824 [INFO] [trisolaris/vtap] vtap.go:1295 ORGID-1: end generate gpid data from timed
+[GIN-debug] redirecting request 307: /v1/query/ --> /v1/query/
+2024-07-07 22:07:14.980 [GIN] ::1 GET /v1/data-sources/?type=deepflow_tenant 200 533.501µs
+2024-07-07 22:07:15.012 [ERRO] [clickhouse.client] client.go:142 query clickhouse Error: code: 115, message: Unknown setting use_query_cache, sql: SELECT key FROM (SELECT key FROM flow_tag.pod_service_k8s_label_map UNION ALL SELECT key FROM flow_tag.pod_k8s_label_map) GROUP BY key SETTINGS use_query_cache = true, query_cache_store_results_of_queries_with_nondeterministic_functions = 1, query_uuid: e6756c99-d843-4c5d-ab99-801b1b3b01a5
+2024-07-07 22:07:15.012 [ERRO] [clickhouse.metrics] metrics.go:243 Failed to get tag type metrics
+2024-07-07 22:07:15.012 [ERRO] [clickhouse] clickhouse.go:194 sql: SELECT `tag.host`, Sum(`metrics.tx-bytes`) AS `tx-bps` FROM deepflow_agent_collect_sender WHERE `time`>1720274834 AND `time`<1720361234 GROUP BY tag.host; parse error: function: Sum(`metrics.tx-bytes`) not support
+2024-07-07 22:07:15.012 [GIN] 172.24.0.5 POST /v1/query/ 500 33.175284ms
+2024-07-07 22:07:15.012 [INFO] [service.rebalance] traffic.go:83 ORGID-1 DATABASE-deepflow region(ffffffff-ffff-ffff-ffff-ffffffffffff) agent traffic: map[string]int64(nil)
+2024/07/07 22:07:16 traces export: Post "http://deepflow-agent/api/v1/otel/trace": dial tcp 172.24.0.7:80: connect: connection refused
+2024-07-07 22:07:18.821 [INFO] [trisolaris/vtap] vtap.go:1293 ORGID-1: start generate gpid data from timed
+2024-07-07 22:07:18.824 [INFO] [trisolaris/vtap] vtap.go:1295 ORGID-1: end generate gpid data from timed
