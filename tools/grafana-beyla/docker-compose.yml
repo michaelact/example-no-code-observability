@@ -1,0 +1,23 @@
+services:
+  grafana-alloy:
+    image: grafana/alloy:v1.2.0
+    hostname: ${HOSTNAME}
+    pid: 'container:cafe-everywhere-api'
+    command:
+      - 'run'
+      - '--stability.level=public-preview'
+      - '/etc/alloy/config.alloy'
+    environment:
+      - OTEL_EXPORTER_OTLPHTTP_ENDPOINT=${OTEL_EXPORTER_OTLPHTTP_ENDPOINT}
+      - OTEL_EXPORTER_OTLPHTTP_AUTHORIZATION_HEADER=${OTEL_EXPORTER_OTLPHTTP_AUTHORIZATION_HEADER}
+      - OTEL_EXPORTER_PORTS=${OTEL_EXPORTER_PORTS}
+      - OTEL_EXPORTER_SERVICE_NAME=${OTEL_EXPORTER_SERVICE_NAME}
+    volumes:
+      - ./config/config.alloy:/etc/alloy/config.alloy
+    privileged: true
+
+
+networks:
+  default:
+    name: cafe-everywhere
+    external: true

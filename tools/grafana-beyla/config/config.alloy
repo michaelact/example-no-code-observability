@@ -1,0 +1,37 @@
+logging {
+  level = "error"
+}
+
+beyla.ebpf "default" {
+  open_port = env("OTEL_EXPORTER_PORTS")
+
+  discovery {
+    services {
+      name = env("OTEL_EXPORTER_SERVICE_NAME")
+    }
+  }
+
+  output {
+    traces = [otelcol.processor.batch.default.input]
+  }
+}
+
+otelcol.processor.batch "default" {
+  output {
+    traces  = [otelcol.exporter.otlphttp.default.input]
+  }
+}
+
+otelcol.exporter.otlphttp "default" {
+  client {
+    endpoint = env("OTEL_EXPORTER_OTLPHTTP_ENDPOINT")
+    auth = otelcol.auth.headers.default.handler
+  }
+}
+
+otelcol.auth.headers "default" {
+  header {
+    key   = "Authorization"
+    value = env("OTEL_EXPORTER_OTLPHTTP_AUTHORIZATION_HEADER")
+  }
+}
