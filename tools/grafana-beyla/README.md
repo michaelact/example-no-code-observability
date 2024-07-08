@@ -2,9 +2,7 @@
 
 eBPF-based autoinstrumentation for web applications and network metrics.
 
-## Overview
-
-Grafana Beyla is an interesting tool I found at January 13, 2024. Unlike many similar tools, Beyla can run on a single VM without the need for Kubernetes.
+* Grafana Beyla is an interesting tool I found at January 13, 2024. Unlike many similar tools, Beyla can run on a single VM without the need for Kubernetes.
 
 ## Application Example
 
@@ -12,16 +10,16 @@ I used [Cafe Everywhere](https://github.com/michaelact/cafe-everywhere) as the t
 
 ![diagram](assets/diagram.png)
 
-### How to Run Grafana Beyla
+## How to Run Grafana Beyla
 
-#### Prerequisites
+### Prerequisites
 
 Ensure you have the following installed on your system:
 
 - [Rancher Desktop](https://rancherdesktop.io/) or [Docker](https://docs.docker.com/engine/install/)
 - [Elastic APM](https://www.elastic.co/guide/en/observability/current/apm-installing.html) or [Jaeger APM](https://www.jaegertracing.io/docs/1.58/getting-started/)
 
-#### Setup Steps
+### Setup Steps
 
 1. **Navigate to the directory:**
    ```shell
@@ -45,6 +43,8 @@ Ensure you have the following installed on your system:
 In my case, I use the Elastic Cloud APM server.
 
 ![elastic-cloud-apm-demo](assets/elastic-cloud-apm-demo.png)
+
+## Conclusion
 
 Grafana Beyla currently meets my needs for a no-code observability tool that can be installed on a single server with Docker Compose.
 
