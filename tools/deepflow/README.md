@@ -46,4 +46,4 @@ I am still unsure where the failure occurs.
 
 ---
 
-As DeepFlow continues to translate their documentation from Chinese, I hope future versions will provide clearer explanations.
+As DeepFlow continues to translate their documentation from Chinese, I hope future versions will provide clearer installation guide & explanations.

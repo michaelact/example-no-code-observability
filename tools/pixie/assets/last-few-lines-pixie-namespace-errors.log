@@ -1,0 +1,28 @@
+$ kubectl logs -n plc --all-containers=true --tail=1000 -l app --since=1m | grep -i error
+time="2024-07-09T18:32:18Z" level=warning msg="[core] grpc: addrConn.createTransport failed to connect to {  <nil> <nil> 0 <nil>}. Err: connection error: desc = \"transport: Error while dialing dial tcp: missing address\"" system=system
+time="2024-07-09T18:32:45Z" level=warning msg="[core] grpc: addrConn.createTransport failed to connect to {  <nil> <nil> 0 <nil>}. Err: connection error: desc = \"transport: Error while dialing dial tcp: missing address\"" system=system
+2024/07/09 18:32:05 http: TLS handshake error from 172.17.2.49:49838: EOF
+2024/07/09 18:32:05 http: TLS handshake error from 172.17.1.153:45028: EOF
+2024/07/09 18:32:09 http: TLS handshake error from 172.17.1.17:55295: EOF
+2024/07/09 18:32:11 http: TLS handshake error from 172.17.2.89:24573: EOF
+2024/07/09 18:32:15 http: TLS handshake error from 172.17.2.49:17266: EOF
+2024/07/09 18:32:15 http: TLS handshake error from 172.17.1.153:58598: EOF
+2024/07/09 18:32:19 http: TLS handshake error from 172.17.1.17:48396: EOF
+2024/07/09 18:32:21 http: TLS handshake error from 172.17.2.89:39170: EOF
+2024/07/09 18:32:25 http: TLS handshake error from 172.17.2.49:21934: EOF
+2024/07/09 18:32:25 http: TLS handshake error from 172.17.1.153:10841: EOF
+2024/07/09 18:32:29 http: TLS handshake error from 172.17.1.17:50941: EOF
+2024/07/09 18:32:31 http: TLS handshake error from 172.17.2.89:27504: EOF
+2024/07/09 18:32:35 http: TLS handshake error from 172.17.2.49:36974: EOF
+2024/07/09 18:32:35 http: TLS handshake error from 172.17.1.153:11123: EOF
+2024/07/09 18:32:39 http: TLS handshake error from 172.17.1.17:47608: EOF
+2024/07/09 18:32:41 http: TLS handshake error from 172.17.2.89:55699: EOF
+2024/07/09 18:32:45 http: TLS handshake error from 172.17.2.49:31864: EOF
+2024/07/09 18:32:45 http: TLS handshake error from 172.17.1.153:63248: EOF
+2024/07/09 18:32:49 http: TLS handshake error from 172.17.1.17:1078: EOF
+2024/07/09 18:32:51 http: TLS handshake error from 172.17.2.89:56887: EOF
+2024/07/09 18:32:55 http: TLS handshake error from 172.17.2.49:44120: EOF
+2024/07/09 18:32:55 http: TLS handshake error from 172.17.1.153:59641: EOF
+2024/07/09 18:32:59 http: TLS handshake error from 172.17.1.17:37657: EOF
+2024/07/09 18:33:01 http: TLS handshake error from 172.17.2.89:64987: EOF
+time="2024-07-09T18:32:19Z" level=error msg="Failed to update database, ignoring (will retry in next tick)" error=EOF
