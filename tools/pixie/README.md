@@ -2,7 +2,7 @@
 
 Instant open-source debugging for your applications on Kubernetes.
 
-Pixie is another no-code observability tool designed specifically for Kubernetes.
+* Another no-code observability tool designed specifically for Kubernetes.
 
 ## Issue: Pixie Dashboard Shows 'No clusters found.'
 
