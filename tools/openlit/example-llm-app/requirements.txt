@@ -1,0 +1,6 @@
+openlit
+langchain-core
+langchain-community
+langchain
+huggingface_hub
+httpx

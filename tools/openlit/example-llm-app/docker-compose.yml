@@ -1,0 +1,16 @@
+services:
+  example-chat-app:
+    build: .
+    container_name: example-chat-app
+    env_file:
+      - .env
+    ports:
+      - "5001:7860"
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            count: all
+            capabilities: [gpu]
+
