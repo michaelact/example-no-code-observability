@@ -1,0 +1,13 @@
+services:
+  simple-ollama-app:
+    build: .
+    container_name: simple-ollama-app
+    env_file:
+      - .env
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            count: all
+            capabilities: [gpu]
